@@ -44,7 +44,6 @@ function UserModal({
   };
 
   const handleSubmit = () => {
-    // Validate the fields
     let valid = true;
     const newErrors = { title: "", body: "", userId: "" };
 
